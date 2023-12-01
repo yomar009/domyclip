@@ -2,93 +2,131 @@
 
 /*====================================================== default color theme =====================================================*/
 
+/*====================================================== Custom Color Theme (#1047ef) =====================================================*/
+
 .option {
-    background-color:#ec482c;
+    background-color: #1047ef; /* Custom Color */
 }
-.navbar-default.small .site-title h3{
-    color: #ec482c;
+
+.navbar-default.small .site-title h3 {
+    color: #1047ef; /* Custom Color */
 }
+
 .home-text h2 span {
-    background-color: #ec482c;
+    background-color: #1047ef; /* Custom Color */
 }
+
 .what-i-do {
-    background-color: #ec482c;
+    background-color: #1047ef; /* Custom Color */
 }
+
 .what-icon {
-    color: #ec482c;
+    color: #1047ef; /* Custom Color */
 }
+
 .underline {
-    background-color: #ec482c;
+    background-color: #1047ef; /* Custom Color */
 }
+
 .about-link-1 {
-    background-color: #ec482c;
-    border: 3px solid #f09080;
+    background-color: #1047ef; /* Custom Color */
+    border: 3px solid #6d8ce9; /* Lighter Custom Color */
 }
-.about-link-2{
-    
-    background-color: #ec482c;
-    border: 3px solid #f09080;
+
+.about-link-2 {
+    background-color: #1047ef; /* Custom Color */
+    border: 3px solid #6d8ce9; /* Lighter Custom Color */
 }
-.about-link-1:hover{
-    border: 3px solid #ec482c;
+
+.about-link-1:hover {
+    border: 3px solid #1047ef; /* Custom Color */
 }
-.about-link-2:hover{
-    border: 3px solid #ec482c;
+
+.about-link-2:hover {
+    border: 3px solid #1047ef; /* Custom Color */
 }
+
 .work-counter {
-    background-color: #ec482c;
+    background-color: #1047ef; /* Custom Color */
 }
+
 .resume-details-part h3 {
-    color: #ec482c;
+    color: #1047ef; /* Custom Color */
 }
+
 .resume-details-grid {
-    border-left: 1px solid #ec482c;
+    border-left: 1px solid #1047ef; /* Custom Color */
 }
+
 .resume-details-grid h4 {
-    color: #ec482c;
+    color: #1047ef; /* Custom Color */
 }
+
 .resume-icon {
-    color: #ec482c;
+    color: #1047ef; /* Custom Color */
 }
+
 #filters li span.active {
-    background: #ec482c;
+    background: #1047ef; /* Custom Color */
 }
+
 .overlay {
-    background-color: rgba(240, 68, 12, 0.88);
+    background-color: rgba(16, 71, 239, 0.9); /* Custom Color with opacity */
 }
+
 .fancybox-skin {
-    background: #ec482c;
+    background: #1047ef; /* Custom Color */
 }
+
 .service-icon {
-    color: #ec482c;
+    color: #1047ef; /* Custom Color */
 }
+
 .service-details::before {
-    border-left: 2px solid #ec482c;
-    border-top: 2px solid #ec482c;
+    border-left: 2px solid #1047ef; /* Custom Color */
+    border-top: 2px solid #1047ef; /* Custom Color */
 }
+
 .service-details:hover:before {
-    border-left: 2px solid #ec482c;
-    border-top: 2px solid #ec482c;
+    border-left: 2px solid #1047ef; /* Custom Color */
+    border-top: 2px solid #1047ef; /* Custom Color */
 }
+
 .fa-4x {
-    color: #ec482c;
+    color: #1047ef; /* Custom Color */
 }
+
 #fade-quote-carousel.carousel .carousel-indicators > li {
-    background-color: #ec482c;
+    background-color: #1047ef; /* Custom Color */
 }
-.contact-row{
-    background-color: #ec482c;
+
+.contact-row {
+    background-color: #1047ef; /* Custom Color */
 }
+
 .navbar-default .navbar-nav > li > a:hover {
-    color: #ef3515;
+    color: #1047ef; /* Custom Color */
 }
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
-    color: #ef3515 !important;
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #1047ef !important; /* Custom Color */
     background-color: transparent;
 }
+
 .resume-part::before {
-    background-color: #ec482c;
+    background-color: #1047ef; /* Custom Color */
 }
+
+.work-statistics {
+    border: 1px solid #6e8cf0; /* Lighter Custom Color */
+}
+
+.work-statistics:hover {
+    border: 1px solid #92a5f1; /* Lighter Custom Color */
+}
+
 .contact-col {
-    background-color: #ec482c;
+    background-color: #1047ef; /* Custom Color */
 }
