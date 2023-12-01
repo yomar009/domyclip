@@ -1,0 +1,128 @@
+/*====================================================== Custom Color Theme (#12A19B) =====================================================*/
+
+.option {
+    background-color: #12A19B; /* Custom Color */
+}
+
+.navbar-default.small .site-title h3 {
+    color: #12A19B; /* Custom Color */
+}
+
+.home-text h2 span {
+    background-color: #12A19B; /* Custom Color */
+}
+
+.what-i-do {
+    background-color: #12A19B; /* Custom Color */
+}
+
+.what-icon {
+    color: #12A19B; /* Custom Color */
+}
+
+.underline {
+    background-color: #12A19B; /* Custom Color */
+}
+
+.about-link-1 {
+    background-color: #12A19B; /* Custom Color */
+    border: 3px solid #7fc4be; /* Lighter Custom Color */
+}
+
+.about-link-2 {
+    background-color: #12A19B; /* Custom Color */
+    border: 3px solid #7fc4be; /* Lighter Custom Color */
+}
+
+.about-link-1:hover {
+    border: 3px solid #12A19B; /* Custom Color */
+}
+
+.about-link-2:hover {
+    border: 3px solid #12A19B; /* Custom Color */
+}
+
+.work-counter {
+    background-color: #12A19B; /* Custom Color */
+}
+
+.resume-details-part h3 {
+    color: #12A19B; /* Custom Color */
+}
+
+.resume-details-grid {
+    border-left: 1px solid #12A19B; /* Custom Color */
+}
+
+.resume-details-grid h4 {
+    color: #12A19B; /* Custom Color */
+}
+
+.resume-icon {
+    color: #12A19B; /* Custom Color */
+}
+
+#filters li span.active {
+    background: #12A19B; /* Custom Color */
+}
+
+.overlay {
+    background-color: rgba(18, 161, 155, 0.9); /* Custom Color with opacity */
+}
+
+.fancybox-skin {
+    background: #12A19B; /* Custom Color */
+}
+
+.service-icon {
+    color: #12A19B; /* Custom Color */
+}
+
+.service-details::before {
+    border-left: 2px solid #12A19B; /* Custom Color */
+    border-top: 2px solid #12A19B; /* Custom Color */
+}
+
+.service-details:hover:before {
+    border-left: 2px solid #12A19B; /* Custom Color */
+    border-top: 2px solid #12A19B; /* Custom Color */
+}
+
+.fa-4x {
+    color: #12A19B; /* Custom Color */
+}
+
+#fade-quote-carousel.carousel .carousel-indicators > li {
+    background-color: #12A19B; /* Custom Color */
+}
+
+.contact-row {
+    background-color: #12A19B; /* Custom Color */
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #12A19B; /* Custom Color */
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #12A19B !important; /* Custom Color */
+    background-color: transparent;
+}
+
+.resume-part::before {
+    background-color: #12A19B; /* Custom Color */
+}
+
+.work-statistics {
+    border: 1px solid #4cbdb7; /* Lighter Custom Color */
+}
+
+.work-statistics:hover {
+    border: 1px solid #7ecfc9; /* Lighter Custom Color */
+}
+
+.contact-col {
+    background-color: #12A19B; /* Custom Color */
+}

@@ -1,0 +1,130 @@
+
+
+/*====================================================== Olive Green Color Theme =====================================================*/
+
+.option {
+    background-color: #6b8e23; /* Olive Green */
+}
+
+.navbar-default.small .site-title h3 {
+    color: #6b8e23; /* Olive Green */
+}
+
+.home-text h2 span {
+    background-color: #6b8e23; /* Olive Green */
+}
+
+.what-i-do {
+    background-color: #6b8e23; /* Olive Green */
+}
+
+.what-icon {
+    color: #6b8e23; /* Olive Green */
+}
+
+.underline {
+    background-color: #6b8e23; /* Olive Green */
+}
+
+.about-link-1 {
+    background-color: #6b8e23; /* Olive Green */
+    border: 3px solid #a9bc8b; /* Light Olive Green */
+}
+
+.about-link-2 {
+    background-color: #6b8e23; /* Olive Green */
+    border: 3px solid #a9bc8b; /* Light Olive Green */
+}
+
+.about-link-1:hover {
+    border: 3px solid #6b8e23; /* Olive Green */
+}
+
+.about-link-2:hover {
+    border: 3px solid #6b8e23; /* Olive Green */
+}
+
+.work-counter {
+    background-color: #6b8e23; /* Olive Green */
+}
+
+.resume-details-part h3 {
+    color: #6b8e23; /* Olive Green */
+}
+
+.resume-details-grid {
+    border-left: 1px solid #6b8e23; /* Olive Green */
+}
+
+.resume-details-grid h4 {
+    color: #6b8e23; /* Olive Green */
+}
+
+.resume-icon {
+    color: #6b8e23; /* Olive Green */
+}
+
+#filters li span.active {
+    background: #6b8e23; /* Olive Green */
+}
+
+.overlay {
+    background-color: rgba(107, 142, 35, 0.9); /* Olive Green with opacity */
+}
+
+.fancybox-skin {
+    background: #6b8e23; /* Olive Green */
+}
+
+.service-icon {
+    color: #6b8e23; /* Olive Green */
+}
+
+.service-details::before {
+    border-left: 2px solid #6b8e23; /* Olive Green */
+    border-top: 2px solid #6b8e23; /* Olive Green */
+}
+
+.service-details:hover:before {
+    border-left: 2px solid #6b8e23; /* Olive Green */
+    border-top: 2px solid #6b8e23; /* Olive Green */
+}
+
+.fa-4x {
+    color: #6b8e23; /* Olive Green */
+}
+
+#fade-quote-carousel.carousel .carousel-indicators > li {
+    background-color: #6b8e23; /* Olive Green */
+}
+
+.contact-row {
+    background-color: #6b8e23; /* Olive Green */
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #6b8e23; /* Olive Green */
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #6b8e23 !important; /* Olive Green */
+    background-color: transparent;
+}
+
+.resume-part::before {
+    background-color: #6b8e23; /* Olive Green */
+}
+
+.work-statistics {
+    border: 1px solid #9ca667; /* Light Olive Green */
+}
+
+.work-statistics:hover {
+    border: 1px solid #c0d391; /* Lighter Olive Green */
+}
+
+.contact-col {
+    background-color: #6b8e23; /* Olive Green */
+}

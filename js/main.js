@@ -143,6 +143,7 @@
     $(".default").on("click", function () {
         $("#color").attr("href", "css/default.css");
     });
+    
     $(".style5").on("click", function () {
         $("#color").attr("href", "css/style5.css");
     });

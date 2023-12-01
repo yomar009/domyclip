@@ -1,0 +1,94 @@
+
+
+/*====================================================== default color theme =====================================================*/
+
+.option {
+    background-color:#ec482c;
+}
+.navbar-default.small .site-title h3{
+    color: #ec482c;
+}
+.home-text h2 span {
+    background-color: #ec482c;
+}
+.what-i-do {
+    background-color: #ec482c;
+}
+.what-icon {
+    color: #ec482c;
+}
+.underline {
+    background-color: #ec482c;
+}
+.about-link-1 {
+    background-color: #ec482c;
+    border: 3px solid #f09080;
+}
+.about-link-2{
+    
+    background-color: #ec482c;
+    border: 3px solid #f09080;
+}
+.about-link-1:hover{
+    border: 3px solid #ec482c;
+}
+.about-link-2:hover{
+    border: 3px solid #ec482c;
+}
+.work-counter {
+    background-color: #ec482c;
+}
+.resume-details-part h3 {
+    color: #ec482c;
+}
+.resume-details-grid {
+    border-left: 1px solid #ec482c;
+}
+.resume-details-grid h4 {
+    color: #ec482c;
+}
+.resume-icon {
+    color: #ec482c;
+}
+#filters li span.active {
+    background: #ec482c;
+}
+.overlay {
+    background-color: rgba(240, 68, 12, 0.88);
+}
+.fancybox-skin {
+    background: #ec482c;
+}
+.service-icon {
+    color: #ec482c;
+}
+.service-details::before {
+    border-left: 2px solid #ec482c;
+    border-top: 2px solid #ec482c;
+}
+.service-details:hover:before {
+    border-left: 2px solid #ec482c;
+    border-top: 2px solid #ec482c;
+}
+.fa-4x {
+    color: #ec482c;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+    background-color: #ec482c;
+}
+.contact-row{
+    background-color: #ec482c;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #ef3515;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #ef3515 !important;
+    background-color: transparent;
+}
+.resume-part::before {
+    background-color: #ec482c;
+}
+.contact-col {
+    background-color: #ec482c;
+}

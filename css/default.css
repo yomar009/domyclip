@@ -1,0 +1,102 @@
+
+
+/*====================================================== default color theme number 5 =====================================================*/
+
+.option {
+    background-color:#e73447;
+}
+.navbar-default.small .site-title h3{
+    color: #e73447;
+}
+.home-text h2 span {
+    background-color: #e73447;
+}
+.what-i-do {
+    background-color: #e73447;
+}
+.what-icon {
+    color: #e73447;
+}
+.underline {
+    background-color: #e73447;
+}
+.about-link-1 {
+    background-color: #e73447;
+    border: 3px solid #ed818c;
+}
+.about-link-2{
+    
+    background-color: #e73447;
+    border: 3px solid #ed818c;
+}
+.about-link-1:hover{
+    border: 3px solid #e73447;
+}
+.about-link-2:hover{
+    border: 3px solid #e73447;
+}
+.work-counter {
+    background-color: #e73447;
+}
+.resume-details-part h3 {
+    color: #e73447;
+}
+.resume-details-grid {
+    border-left: 1px solid #e73447;
+}
+.resume-details-grid h4 {
+    color: #e73447;
+}
+.resume-icon {
+    color: #e73447;
+}
+#filters li span.active {
+    background: #e73447;
+}
+.overlay {
+    background-color: rgba(234, 60, 78, 0.9);
+}
+.fancybox-skin {
+    background: #e73447;
+}
+.service-icon {
+    color: #e73447;
+}
+.service-details::before {
+    border-left: 2px solid #e73447;
+    border-top: 2px solid #e73447;
+}
+.service-details:hover:before {
+    border-left: 2px solid #e73447;
+    border-top: 2px solid #e73447;
+}
+.fa-4x {
+    color: #e73447;
+}
+#fade-quote-carousel.carousel .carousel-indicators > li {
+    background-color: #e73447;
+}
+.contact-row{
+    background-color: #e73447;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #e73447;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    color: #e73447 !important;
+    background-color: transparent;
+}
+.resume-part::before {
+    background-color: #e73447;
+}
+.work-statistics {
+    border: 1px solid #ec4e5f;
+}
+.work-statistics:hover {
+    border: 1px solid #f38994;
+}
+.contact-col {
+    background-color: #e73447;
+}
+
+

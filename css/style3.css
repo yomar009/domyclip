@@ -1,0 +1,128 @@
+/*====================================================== Blue Color Theme =====================================================*/
+
+.option {
+    background-color: #3498db; /* Blue */
+}
+
+.navbar-default.small .site-title h3 {
+    color: #3498db; /* Blue */
+}
+
+.home-text h2 span {
+    background-color: #3498db; /* Blue */
+}
+
+.what-i-do {
+    background-color: #3498db; /* Blue */
+}
+
+.what-icon {
+    color: #3498db; /* Blue */
+}
+
+.underline {
+    background-color: #3498db; /* Blue */
+}
+
+.about-link-1 {
+    background-color: #3498db; /* Blue */
+    border: 3px solid #7fb3d5; /* Light Blue */
+}
+
+.about-link-2 {
+    background-color: #3498db; /* Blue */
+    border: 3px solid #7fb3d5; /* Light Blue */
+}
+
+.about-link-1:hover {
+    border: 3px solid #3498db; /* Blue */
+}
+
+.about-link-2:hover {
+    border: 3px solid #3498db; /* Blue */
+}
+
+.work-counter {
+    background-color: #3498db; /* Blue */
+}
+
+.resume-details-part h3 {
+    color: #3498db; /* Blue */
+}
+
+.resume-details-grid {
+    border-left: 1px solid #3498db; /* Blue */
+}
+
+.resume-details-grid h4 {
+    color: #3498db; /* Blue */
+}
+
+.resume-icon {
+    color: #3498db; /* Blue */
+}
+
+#filters li span.active {
+    background: #3498db; /* Blue */
+}
+
+.overlay {
+    background-color: rgba(52, 152, 219, 0.9); /* Blue with opacity */
+}
+
+.fancybox-skin {
+    background: #3498db; /* Blue */
+}
+
+.service-icon {
+    color: #3498db; /* Blue */
+}
+
+.service-details::before {
+    border-left: 2px solid #3498db; /* Blue */
+    border-top: 2px solid #3498db; /* Blue */
+}
+
+.service-details:hover:before {
+    border-left: 2px solid #3498db; /* Blue */
+    border-top: 2px solid #3498db; /* Blue */
+}
+
+.fa-4x {
+    color: #3498db; /* Blue */
+}
+
+#fade-quote-carousel.carousel .carousel-indicators > li {
+    background-color: #3498db; /* Blue */
+}
+
+.contact-row {
+    background-color: #3498db; /* Blue */
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #3498db; /* Blue */
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #3498db !important; /* Blue */
+    background-color: transparent;
+}
+
+.resume-part::before {
+    background-color: #3498db; /* Blue */
+}
+
+.work-statistics {
+    border: 1px solid #5faee3; /* Light Blue */
+}
+
+.work-statistics:hover {
+    border: 1px solid #8dc5f7; /* Lighter Blue */
+}
+
+.contact-col {
+    background-color: #3498db; /* Blue */
+}
