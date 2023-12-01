@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.7s;
+    padding: 20px;
+    z-index: 10;
+}
+
+header.abajo {
+    background: #fff;
+    padding: 15px 20px;
+}
+
+#logo {
+    position: relative;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 2px;
+    transition: 1.5s;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+.zona1 {
+    height: 100vh;
+    background: url(https://mangatschool.com/wp-content/uploads/2021/03/curso-fundamentos-de-programacion-algoritmos.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+header.abajo #logo,
+header.abajo ul li a {
+    color: #000;
+}

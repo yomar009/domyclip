@@ -1,199 +1,732 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Fazt Web | Mobile Web Design</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- ========== PAGE TITLE ========== -->
+        <title>HARPER-Personal/Portfolio HTML5 Template</title>
+        <!-- ========== META TAGS ========== -->
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta charset="utf-8">
+        <meta name="author" content="">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- ========== CSS ========== -->
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="screen">
+        <link rel="stylesheet" type="text/css" href="assets/css/animate.css" media="screen">
+        <script src="https://use.fontawesome.com/1b98f46f85.js"></script>
+        <link href="css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="css/style.css">
+        <link id="color" href="css/color.css" rel="stylesheet">
+        <!-- ========== JQUERY PLUGIN ========== -->
+        <script src="js/jQuery-latest.js" type="text/javascript"></script>
+        <script type="text/javascript" src="js/ajax-jquery.min.js"></script>
 
-  <!-- MAIN WRAPPER -->
-  <div id="wrapper">
+    </head><!-- end head -->
+    <body>
+        <div class="se-pre-con"></div><!-- ========== PRELOADER ========== -->
+        <!-- ========== MENUBAR ========== -->
+        <div class="box">
+            <div class="option"><i class="fa fa-cogs fa-2x" aria-hidden="true"></i></div>
+            <span class="color default"></span>
+            <span class="color style1"></span>
+            <span class="color style2"></span>
+            <span class="color style3"></span>
+            <span class="color style4"></span>
+            <span class="color style5"></span>
+        </div> 
+        <div class="menubar">
+            <div class="menubar-content">
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 col-sm-2">
+                                <div class="site-title">
+                                    <h3>HARPER</h3>
+                                </div><!-- end site-title -->
+                            </div><!-- end col-md-4 -->
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button><!-- end button -->
+                            </div><!-- end navbar-header -->
+                            <div class="col-md-10 col-sm-10 navbar-style">
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav">
+                                        <li>
+                                            <a href="#home" class="active">Home</a>
+                                        </li>
+                                        <li>
+                                            <a href="#about">About</a>
+                                        </li>
+                                        <li>
+                                            <a href="#resume">Resume</a>
+                                        </li>
+                                        <li>
+                                            <a href="#work">Work</a>
+                                        </li>
+                                        <li>
+                                            <a href="#service">Service</a>
+                                        </li>
 
-    <!-- BANNER WRAPPER -->
-    <div id="banner-wrapper">
-      <header>
-        <div id="header-inner">
-          <a href="#" id="logo">
-            <img src="img/pics/fazt_logo.png" alt="">
-          </a>
+                                        <li>
+                                            <a href="#testimonial">Clients</a>
+                                        </li>
+                                        <li>
+                                            <a href="#contact">Contact</a>
+                                        </li>
+                                    </ul><!-- end nav -->
+                                </div><!-- end collapse navbar-collapse -->
+                            </div><!-- end col-md-8 -->
+                        </div><!-- end row -->
+                    </div><!-- end container-fluid -->
+                </nav><!-- navbar -->
+            </div><!-- end menubar-content -->
+        </div><!-- end menubar -->
+        <div class="main-page-content">
+            <div id="home">
+                <div class="home-content">
+                    <div class="home-content-main">
+                        <div class="table-cell">
+                            <div class="container">
+                                <div class="row home-row">
+                                    <div class="col-md-12 col-sm-12">
+                                        <div class="home-text wow fadeInDown text-center">
+                                            <h2>John  <span>Doe</span></h2>
+                                            <h3>Professional Web Designer</h3>
+                                            <a href="#about">Read more</a>
+                                        </div><!-- end home-text  -->
+                                    </div><!-- end col-md-8 -->
+                                </div><!-- end row  -->
+                            </div><!-- end container -->
+                        </div><!-- end table-cell -->
+                    </div><!-- end home-content-main -->
+                    <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <div class="home-slider-1"></div>
+                            </div><!-- end item  -->
+                            <div class="item">
+                                <div class="home-slider-2"></div>
+                            </div><!-- end item  -->
+                            <div class="item">
+                                <div class="home-slider-3"></div>
+                            </div><!-- end item  -->
+                        </div><!-- end carousel-inner  -->
+                    </div><!-- end carousel-example-generic -->
+                </div><!-- end home-content  -->
+            </div><!-- end home  -->
 
-          <nav>
-            <a href="#" id="menu-icon">
-              <i class="fa fa-bars"></i>
-            </a>
-            <ul>
-              <li>
-                <a href="index.html" class="current">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#skills">
-                  Skills
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio">
-                  Portfolio
-                </a>
-              </li>
-              <li>
-                <a href="#services">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="#contact">
-                  Contact
-                </a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <!-- SLIDER -->
-      <div id="slide-wrap">
-        <section class="slider">
-          <ul class="slider1">
-            <li><img src="img/slider/slider1.jpg" alt=""></li>
-            <li><img src="img/slider/slider2.jpg" alt=""></li>
-            <li><img src="img/slider/slider3.jpg" alt=""></li>
-          </ul>
-        </section>
-      </div>
-    </div>
+            <!-- ================================ ABOUT =============================== -->
 
-    <!-- ICONS -->
-    <section class="one-third" id="skills">
-      <div class="icon-wrap">
-        <i class="fa fa-desktop"></i>
-      </div>
-      <h3>Web Design</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident praesentium voluptas, hic quia veritatis eaque ipsam. Pariatur itaque repellat dolor tempore aut recusandae, consectetur ad.</p>
-    </section>
-    <section class="one-third">
-      <div class="icon-wrap">
-        <i class="fa fa-pencil-square-o"></i>
-      </div>
-      <h3>Graphic Design</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident praesentium voluptas, hic quia veritatis eaque ipsam. Pariatur itaque repellat dolor tempore aut recusandae, consectetur ad.</p>
-    </section>
-    <section class="one-third">
-      <div class="icon-wrap">
-        <i class="fa fa-file-code-o"></i>
-      </div>
-      <h3>Development</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident praesentium voluptas, hic quia veritatis eaque ipsam. Pariatur itaque repellat dolor tempore aut recusandae, consectetur ad.</p>
-    </section>
+            <div id="about">
+                <div class="about-content">
+                    <div class="what-i-do-grid text-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="about-title text-center wow fadeIn" data-wow-delay=".2s">
+                                        <h3>My Working Level</h3>
+                                        <div class="underline"></div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam.</p>
+                                    </div><!-- end about-title  -->
+                                </div><!-- end col-md-12  -->
+                            </div><!-- end row  -->
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="what-i-do wow fadeIn" data-wow-delay=".2s">
+                                        <i class="fa fa-html5 what-icon" aria-hidden="true"></i>
+                                        <h3>WEB DESIGN</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div><!-- end what-we-do  -->
+                                </div><!-- end what-we-do-image  -->
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="what-i-do wow fadeIn" data-wow-delay=".4s">
+                                        <i class="fa fa-picture-o what-icon" aria-hidden="true"></i>
+                                        <h3>GRAPHICS DESIGN</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div><!-- end what-we-do  -->
+                                </div><!-- end col-md-4  -->
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="what-i-do wow fadeIn" data-wow-delay=".6s">
+                                        <i class="fa fa-code what-icon" aria-hidden="true"></i>
+                                        <h3>WEB DEVELOPING</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div><!-- end what-we-do  -->
+                                </div><!-- end col-md-4  -->
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="what-i-do wow fadeIn" data-wow-delay=".6s">
+                                        <i class="fa fa-camera-retro what-icon" aria-hidden="true"></i>
+                                        <h3>PHOTOGRAPHY</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+                                    </div><!-- end what-we-do  -->
+                                </div><!-- end col-md-4  -->
+                            </div><!-- end row  -->
+                        </div><!-- end container -->
+                    </div><!-- end what-we-do-grid  -->
+                    <div class="me-grid">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12 about-col">
+                                    <div class="about-image">
+                                        <img src="img/about-image.jpg" alt="" class="about-img wow fadeIn">
+                                    </div><!-- end about-image  -->
+                                </div><!-- end col-md-4  -->
+                                <div class="col-md-8 col-sm-6 col-xs-12 about-col">
+                                    <div class="about-details wow fadeIn">
+                                        <h3 class="wow fadeIn">About Me !</h3>
+                                        <div class="underline about-underline"></div>
+                                        <p class="wow fadeIn">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                        <a class="about-link-1" href="#home">Download Resume</a>
+                                        <a class="about-link-2" href="#contact">Hire Me</a>
+                                    </div><!-- end about-details  -->
+                                </div><!-- end col-md-8  -->
+                            </div><!-- end row  -->
+                        </div><!-- end container  -->
+                    </div><!-- end me-grid  -->
+                    <div class="work-counter text-center">
+                        <div class="counter">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="work-statistics">
+                                            <i class="fa fa-pencil-square-o stat-icon" aria-hidden="true"></i>
+                                            <h3 class="Count">2930</h3>
+                                            <p>Web Design Completed</p>
+                                        </div><!-- end work-statistics  -->
+                                    </div><!-- end col-md-3  -->
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="work-statistics">
+                                            <i class="fa fa-crop stat-icon" aria-hidden="true"></i>
+                                            <h3 class="Count">2727</h3>
+                                            <p>Graphics Design Done</p>
+                                        </div><!-- end work-statistics  -->
+                                    </div><!-- end col-md-3  -->
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="work-statistics">
+                                            <i class="fa fa-bolt stat-icon" aria-hidden="true"></i>
+                                            <h3 class="Count">3635</h3>
+                                            <p>Website Created</p>
+                                        </div><!-- end work-statistics  -->
+                                    </div><!-- end col-md-3  -->
+                                    <div class="col-md-3 col-sm-6">
+                                        <div class="work-statistics">
+                                            <i class="fa fa-coffee stat-icon" aria-hidden="true"></i>
+                                            <h3 class="Count">2120</h3>
+                                            <p>Cups Coffee Taken</p>
+                                        </div><!-- end work-statistics  -->
+                                    </div><!-- end col-md-3  -->
+                                </div><!-- end row  -->
+                            </div><!-- end container-fluid  -->
+                        </div><!-- end counter  -->
+                    </div><!-- end work-counter  -->
+                </div><!-- end about-content  -->
+            </div><!-- end about  -->
 
-    <div class="clearfix-padding"></div>
-    <!-- LEFT COL -->
-    <section class="left-col" id="portfolio">
-      <h3>Portfolio</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-    <section class="sidebar">
-      <img src="img/pics/fazt_logo.png">
-    </section>
+            <!-- ================================ RESUME =============================== -->
 
-    <div class="clearfix-padding"></div>
-    <!-- INFO THUMBNAILS -->
-    <div class="one-third-padding" id="services">
-      <h3>Our Skills One</h3>
-      <img src="img/pics/image1.png" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis assumenda provident recusandae deserunt aperiam laboriosam distinctio sed itaque quas maxime!</p>
-    </div>
-    <div class="one-third-padding">
-      <h3>Our Skills Two</h3>
-      <img src="img/pics/image2.png" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis assumenda provident recusandae deserunt aperiam laboriosam distinctio sed itaque quas maxime!</p>
-    </div>
-    <div class="one-third-padding">
-      <h3>Our Skills Three</h3>
-      <img src="img/pics/image3.png" alt="">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis assumenda provident recusandae deserunt aperiam laboriosam distinctio sed itaque quas maxime!</p>
-    </div>
-  </div>
-  <div class="clearfix-padding"></div>
-  <!-- FOOTER -->
-  <footer>
-    <div class="banner-wrapper">
-      <div class="icon-text">
-        <div class="icon-text-icon">
-          <ul class="footer-nav">
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="#">Skills</a>
-            </li>
-            <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">Our Team</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <div class="icon-text-text">
-          <ul class="social">
-            <li>
-              <a href="mailto:contact@faztweb.com">
-                <i class="fa fa-envelope-o"></i>
-              </a>
-            </li>
-            <li>
-              <a href="http://facebook.com/fazttech">
-                <i class="fa fa-facebook"></i>
-              </a>
-            </li>
-            <li>
-              <a href="http://twitter.com/fazttech">
-                <i class="fa fa-twitter"></i>
-              </a>
-            </li>
-            <li>
-              <a href="http://youtube.com/fazttech">
-                <i class="fa fa-youtube"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <i class="fa fa-instagram"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
-  <footer class="second-footer">
-    <p>
-      &copy; <a href="http://faztweb.com">FaztWeb.com</a>
-    </p>
-  </footer>
+            <div id="resume">
+                <div class="resume-content">
+                    <div class="resume-grid text-left">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="resume-title text-center wow fadeIn" data-wow-delay=".2s">
+                                        <h3>My Resume</h3>
+                                        <div class="underline"></div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam.</p>
+                                    </div><!-- end service-title  -->
+                                </div><!-- end col-md-12  -->
+                            </div><!-- end row  -->
+                            <div class="row resume-row">
+                                <div class="col-md-6">
+                                    <div class="resume-details">
+                                        <div class="resume-details-part">
+                                            <h3>Education</h3>
+                                        </div><!-- end resume-detils-part  -->
+                                        <div class="resume-details-grid">
+                                            <div class="resume-part">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <i class="fa fa-newspaper-o resume-icon" aria-hidden="true"></i>
+                                                    </div><!-- end media-left  -->
+                                                    <div class="media-body">
+                                                        <h3>Intermediate Education</h3>
+                                                        <h4>2000-2002</h4>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam.</p>
+                                                    </div><!-- end media-body  -->
+                                                </div><!-- end media  -->
+                                            </div><!-- end resume-part  -->
+                                            <div class="resume-part">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <i class="fa fa-newspaper-o resume-icon" aria-hidden="true"></i>
+                                                    </div><!-- end media-left  -->
+                                                    <div class="media-body">
+                                                        <h3>Honors Education</h3>
+                                                        <h4>2002-2006</h4>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam.</p>
+                                                    </div><!-- end media-body  -->
+                                                </div><!-- end media  -->
+                                            </div><!-- end resume-part  -->
+                                            <div class="resume-part">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <i class="fa fa-newspaper-o resume-icon" aria-hidden="true"></i>
+                                                    </div><!-- end media-left  -->
+                                                    <div class="media-body">
+                                                        <h3>Masters Education</h3>
+                                                        <h4>2006-2007</h4>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam.</p>
+                                                    </div><!-- end media-body  -->
+                                                </div><!-- end media  -->
+                                            </div><!-- end resume-part  -->
+                                        </div><!-- end resume-detils-grid  -->
+                                    </div><!-- end resume-detils  -->
+                                </div><!-- end col-md-6  -->
+                                <div class="col-md-6">
+                                    <div class="resume-details">
+                                        <div class="resume-details-part">
+                                            <h3>Experience</h3>
+                                        </div><!-- end resume-detils-part  -->
+                                        <div class="resume-details-grid">
+                                            <div class="resume-part">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <i class="fa fa-pencil-square-o resume-icon" aria-hidden="true"></i>
+                                                    </div><!-- end media-left  -->
+                                                    <div class="media-body">
+                                                        <h3>Multinational Company</h3>
+                                                        <h4>2008-20010</h4>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam.</p>
+                                                    </div><!-- end media-body  -->
+                                                </div><!-- end media  -->
+                                            </div><!-- end resume-part  -->
+                                            <div class="resume-part">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <i class="fa fa-pencil-square-o resume-icon" aria-hidden="true"></i>
+                                                    </div><!-- end media-left  -->
+                                                    <div class="media-body">
+                                                        <h3>A.K Khan Company</h3>
+                                                        <h4>2010-2011</h4>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam.</p>
+                                                    </div><!-- end media-body  -->
+                                                </div><!-- end media  -->
+                                            </div><!-- end resume-part  -->
+                                            <div class="resume-part">
+                                                <div class="media">
+                                                    <div class="media-left">
+                                                        <i class="fa fa-pencil-square-o resume-icon" aria-hidden="true"></i>
+                                                    </div><!-- end media-left  -->
+                                                    <div class="media-body">
+                                                        <h3>NDTP Bangladesh</h3>
+                                                        <h4>2012-2016</h4>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam.</p>
+                                                    </div><!-- end media-body  -->
+                                                </div><!-- end media  -->
+                                            </div><!-- end resume-part  -->
+                                        </div><!-- end resume-detils-grid  -->
+                                    </div><!-- end resume-detils  -->
+                                </div><!-- end col-md-6  -->
+                            </div><!-- end row  -->
+                        </div><!-- end container  -->
+                    </div><!-- end service-grid  -->
+                </div><!-- end service-content  -->
+            </div><!-- end service  -->
 
-  <!-- SCRIPTS -->
-  <script>
-    $(document).ready(function(){
-      $('.slider1').bxSlider({
-        mode: 'fade',
-      });
-      $('.slider2').bxSlider({
-        mode: 'fade',
-      });
-      $('.slider3').bxSlider({
-        mode: 'fade',
-      });
-    });
-  </script>
-</body>
-</html>
+            <!-- ================================ WORK =============================== -->
+
+            <div id="work">
+                <div class="work-content">
+                    <div class="work-grid">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="work-title text-center wow fadeIn">
+                                        <h3>My Portfolio</h3>
+                                        <div class="underline"></div>
+                                    </div><!-- end work-title  -->
+                                </div><!-- end col-md-12  -->
+                            </div><!-- end row  -->
+                        </div><!-- end container  -->
+                        <div class="work-details">
+                            <div class="container">
+                                <ul id="filters" class="clearfix">
+                                    <li><span class="filter active" data-filter=".web, .graphics, .development, .photography">All</span></li>
+                                    <li><span class="filter" data-filter=".web">Web-design</span></li>
+                                    <li><span class="filter" data-filter=".graphics">Graphics-design</span></li>
+                                    <li><span class="filter" data-filter=".development">Development</span></li>
+                                    <li><span class="filter" data-filter=".photography">Photography</span></li>
+                                </ul>
+                                <div id="portfoliolist">
+                                    <div class="portfolio graphics" data-cat="graphics">
+                                        <div class="portfolio-wrapper wow fadeIn" data-wow-delay=".2s">
+                                            <div class="overlay text-center">
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <a class="fancybox port-img-link" href="img/portfolios/graphics/1.jpg" title="little something about the image">view project</a>
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/graphics/1.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-graphics  -->				
+                                    <div class="portfolio web" data-cat="web">
+                                        <div class="portfolio-wrapper wow fadeIn" data-wow-delay=".4s">	
+                                            <div class="overlay text-center">
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <a class="fancybox port-img-link" href="img/portfolios/web/1.jpg" title="little something about the image">view project</a>
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/web/1.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-web  -->	
+                                    <div class="portfolio development" data-cat="development">
+                                        <div class="portfolio-wrapper wow fadeIn" data-wow-delay=".6s">	
+                                            <div class="overlay text-center">
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <a class="fancybox port-img-link" href="img/portfolios/development/1.jpg" title="little something about the image">view project</a>
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/development/1.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-development  -->			
+                                    <div class="portfolio graphics" data-cat="graphics">
+                                        <div class="portfolio-wrapper wow fadeIn" data-wow-delay=".8s">	
+                                            <div class="overlay text-center">
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <a class="fancybox port-img-link" href="img/portfolios/graphics/2.jpg" title="little something about the image">view project</a>
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/graphics/2.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-graphics  -->
+                                    <div class="portfolio development" data-cat="development">
+                                        <div class="portfolio-wrapper wow fadeIn" data-wow-delay=".2s">
+                                            <div class="overlay text-center">
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <a class="fancybox port-img-link" href="img/portfolios/development/2.jpg" title="little something about the image">view project</a>
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/development/2.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-development  -->		
+                                    <div class="portfolio web" data-cat="web">
+                                        <div class="portfolio-wrapper wow fadeIn" data-wow-delay=".4s">	
+                                            <div class="overlay text-center">
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <a class="fancybox port-img-link" href="img/portfolios/web/2.jpg" title="little something about the image">view project</a>
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/web/2.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-web  -->	
+                                    <div class="portfolio graphics" data-cat="graphics">
+                                        <div class="portfolio-wrapper wow fadeIn" data-wow-delay=".6s">	
+                                            <div class="overlay text-center">
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <a class="fancybox port-img-link" href="img/portfolios/graphics/3.jpg" title="little something about the image">view project</a>
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/graphics/3.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-graphics  -->
+                                    <div class="portfolio development" data-cat="development">
+                                        <div class="portfolio-wrapper wow fadeIn" data-wow-delay=".8s">	
+                                            <div class="overlay text-center">
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <a class="fancybox port-img-link" href="img/portfolios/development/3.jpg" title="little something about the image">view project</a>
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/development/3.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-development  -->																																						
+                                    <div class="portfolio photography" data-cat="photography">
+                                        <div class="portfolio-wrapper wow fadeIn" data-wow-delay=".2s">	
+                                            <div class="overlay text-center">
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <a class="fancybox port-img-link" href="img/portfolios/photography/1.jpg" title="little something about the image">view project</a>
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/photography/1.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-photo  -->													
+                                    <div class="portfolio web" data-cat="web">
+                                        <div class="portfolio-wrapper wow fadeIn" data-wow-delay=".4s">	
+                                            <div class="overlay text-center">
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <a class="fancybox port-img-link" href="img/portfolios/web/3.jpg" title="little something about the image">view project</a>
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/web/3.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-web  -->		
+                                    <div class="portfolio photography" data-cat="photography">
+                                        <div class="portfolio-wrapper wow fadeIn" data-wow-delay=".6s">	
+                                            <div class="overlay text-center">
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <a class="fancybox port-img-link" href="img/portfolios/photography/2.jpg" title="little something about the image">view project</a>
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/photography/2.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-photo  -->															
+                                    <div class="portfolio photography" data-cat="photography">
+                                        <div class="portfolio-wrapper wow fadeIn" data-wow-delay=".8s">	
+                                            <div class="overlay text-center">
+                                                <div class="overlay-main">
+                                                    <div class="table-cell">
+                                                        <a class="fancybox port-img-link" href="img/portfolios/photography/3.jpg" title="little something about the image">view project</a>
+                                                    </div><!-- end table-cell  -->
+                                                </div><!-- end overlay-main  -->
+                                            </div><!-- end overlay  -->
+                                            <img src="img/portfolios/photography/3.jpg" alt="" />
+                                        </div><!-- end portfolio-wrapper  -->
+                                    </div><!-- end portfolio-photo  -->											
+                                </div><!-- end portfoliolist  -->
+                            </div><!-- container -->
+                        </div><!-- end work-details  -->
+                    </div><!-- end work-grid  -->
+                </div><!-- end work-content  -->
+            </div><!-- end work  --> 
+
+            <!-- ================================ SERVICE =============================== -->
+
+            <div id="service">
+                <div class="service-content">
+                    <div class="service-grid text-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="service-title text-center wow fadeIn" data-wow-delay=".2s">
+                                        <h3>My Service</h3>
+                                        <div class="underline"></div>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam.</p>
+                                    </div><!-- end service-title  -->
+                                </div><!-- end col-md-12  -->
+                            </div><!-- end row  -->
+                            <div class="row service-row">
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="service-details wow fadeIn" data-wow-delay=".4s">
+                                        <i class="fa fa-pencil-square-o service-icon" aria-hidden="true"></i>
+                                        <h3>HTML5 AND CSS3</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div><!-- end service-details  -->
+                                </div><!-- end col-md-4  -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="service-details wow fadeIn" data-wow-delay=".6s">
+                                        <i class="fa fa-cogs service-icon" aria-hidden="true"></i>
+                                        <h3>Amazing Design</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div><!-- end service-details  -->
+                                </div><!-- end col-md-4  -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="service-details wow fadeIn" data-wow-delay=".2s">
+                                        <i class="fa fa-file-image-o service-icon" aria-hidden="true"></i>
+                                        <h3>Easily customisable</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div><!-- end service-details  -->
+                                </div><!-- end col-md-4  -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="service-details wow fadeIn">
+                                        <i class="fa fa-heart-o service-icon" aria-hidden="true"></i>
+                                        <h3>Working Contact Form</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div><!-- end service-details  -->
+                                </div><!-- end col-md-4  -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="service-details wow fadeIn" data-wow-delay=".4s">
+                                        <i class="fa fa-hourglass service-icon" aria-hidden="true"></i>
+                                        <h3>24/7 Support</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div><!-- end service-details  -->
+                                </div><!-- end col-md-4  -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="service-details wow fadeIn" data-wow-delay=".6s">
+                                        <i class="fa fa-newspaper-o service-icon" aria-hidden="true"></i>
+                                        <h3>Bootstrap 3.0.0</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div><!-- end service-details  -->
+                                </div><!-- end col-md-4  -->
+                            </div><!-- end row  -->
+                        </div><!-- end container  -->
+                    </div><!-- end service-grid  -->
+                </div><!-- end service-content  -->
+            </div><!-- end service  -->
+
+            <!-- ================================ TESTIMONIAL =============================== -->
+
+            <div id="testimonial">
+                <div class="testimonial-content">
+                    <div class="testimonial-grid">
+                        <div class="testimonial-title text-center wow fadeIn">
+                            <h3>Clients Say</h3>
+                            <div class="underline"></div>
+                        </div><!-- end testimonial-title  --> 
+                        <div class="testimonial-details">
+                            <section id="carousel">    				
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-8 col-md-offset-2">
+                                            <div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+                                            <div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+                                                    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+                                                    <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+                                                </ol>
+                                                <div class="carousel-inner">
+                                                    <div class="active item">
+                                                        <blockquote>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.<br><span>John Mack</span></p>
+                                                        </blockquote>
+                                                    </div><!-- end item  --> 
+                                                    <div class="item">
+                                                        <blockquote>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.<br><span>Richi Sina</span></p>
+                                                        </blockquote>
+                                                    </div><!-- end item  --> 
+                                                    <div class="item">
+                                                        <blockquote>
+                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, veritatis nulla eum laudantium totam tempore optio doloremque laboriosam quas, quos eaque molestias odio aut eius animi. Impedit temporibus nisi accusamus.<br><span>Mahindra</span></p>
+                                                        </blockquote>
+                                                    </div><!-- end item  --> 
+                                                </div><!-- end carousel-inner  --> 
+                                            </div><!-- end carousel-slide  --> 
+                                        </div><!-- end col-md-8  --> 						
+                                    </div><!-- end row  --> 
+                                </div><!-- end container  --> 
+                            </section>
+                        </div><!-- end testimonials-details  -->
+                    </div><!-- end testimonial-grid  --> 
+                </div><!-- end testimonial-content  --> 
+            </div><!-- end testimonial  --> 
+
+            <!-- ================================ CONTACT =============================== -->
+
+            <div id="contact">
+                <div class="contact-content">
+                    <div class="contact-grid">
+                        <div class="contact-form-details wow fadeIn">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-offset-2">
+                                        <div class="contact-title text-center wow fadeIn">
+                                            <h3>Contact With Me !</h3>
+                                            <div class="underline"></div>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elitsed eiusmod tempor enim minim veniam.</p>
+                                        </div><!-- end contact-title -->
+                                    </div><!-- end col-md-12  -->
+                                </div><!-- end row  -->
+                                <div class="row contact-row">
+                                    <div class="col-md-6 col-sm-6 map-col">
+                                        <div class="google-maps">
+                                            <div class="map-wrap">
+                                                <div class="overlay" onClick="style.pointerEvents = 'none'"></div><!-- wrap map iframe to turn off mouse scroll and turn it back on on click -->
+                                                <div id="map" style="width:100%;height:600px"></div>
+                                            </div><!-- end map wrap  -->
+                                        </div><!-- end google map  -->
+                                    </div><!-- end col-md-6  -->
+                                    <div class="col-md-4 col-md-offset-1 col-sm-6 contact-col wow fadeIn">
+                                        <div class="contact-form">
+                                            <form id="contactForm" class="contact-form shake" data-toggle="validator">
+                                                <div class="form-group">
+                                                    <div class="controls">
+                                                        <input type="text" id="name" class="form-control" placeholder="Name" required data-error="Please enter your name">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div><!-- end controls -->
+                                                </div><!-- end form-group -->
+                                                <div class="form-group">
+                                                    <div class="controls">
+                                                        <input type="email" class="email form-control" id="email" placeholder="Email" required data-error="Please enter your email">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div><!-- end controls -->
+                                                </div><!-- end form-group -->
+                                                <div class="form-group">
+                                                    <div class="controls">
+                                                        <input type="text" id="msg_subject" class="form-control" placeholder="Subject" required data-error="Please enter your message subject">
+                                                        <div class="help-block with-errors"></div>
+                                                    </div><!-- end controls -->
+                                                </div><!-- end form-group -->
+                                                <div class="form-group">
+                                                    <div class="controls">
+                                                        <textarea id="message" rows="7" placeholder="Massage" class="form-control" required data-error="Write your message"></textarea>
+                                                        <div class="help-block with-errors"></div>
+                                                    </div><!-- end controls -->
+                                                </div><!-- end form-group -->
+                                                <button type="submit" id="submit" class="btn btn-success text-center"> Send Message</button>
+                                                <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                                                <div class="clearfix"></div>   
+                                            </form> 
+                                        </div><!-- end contact-form -->
+                                    </div><!-- end col-md-8 -->
+                                </div><!-- end row -->
+                            </div><!-- end container -->
+                        </div><!-- end contact-form-details -->
+                        <div class="copyright-details">
+                            <div class="copyright">
+                                <h3>copyright and design: tamzid hossain</h3>
+                            </div><!-- end copyright -->
+                        </div><!-- end copyright-details -->
+                    </div><!-- end contact-grid -->
+                </div><!-- end contact-content -->
+            </div><!-- end contact -->
+        </div><!-- end main-page -->
+
+        <!-- ================================ JQUERY =============================== -->
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/wow.js"></script>
+        <script src="js/wow-anim.js"></script>
+        <script type="text/javascript" src="assets/js/form-validator.min.js"></script>  
+        <script type="text/javascript" src="assets/js/contact-form-script.js"></script> 
+        <script src="js/jquery.scrolly.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.js?v=2.1.5"></script>
+        <script type="text/javascript" src="js/jquery.fancybox-buttons.js?v=1.0.5"></script>
+        <script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+        <script type="text/javascript" src="js/jquery.fancybox-media.js?v=1.0.6"></script> 
+        <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.1.5"></script>
+        <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/map.js"></script>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/EasePack.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+    </body><!-- end body -->
+</html><!-- end html -->
